@@ -27,7 +27,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(
   cors({
-    origin: 'https://blooming-fortress-90318.herokuapp.com',
+    origin: 'https://bootcamp-grades-app.herokuapp.com/',
   })
 );
 
